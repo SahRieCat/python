@@ -15,3 +15,14 @@
 
 '''
 print ("hello world")
+help(print)
+print (2+2)
+print (60*60*24*365)
+
+
+
+
+
+
+
+
