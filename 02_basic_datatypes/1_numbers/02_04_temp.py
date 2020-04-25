@@ -16,4 +16,4 @@ temp = input("insert degree in Fahrenheit")
 tempintg = int(temp)
 #convert it to Celsius and print it to the console.
 tempincel = (tempintg - 32) * (5 / 9)
-print (tempincel)
+print (tempintg,"degrees fahrenheit =",tempincel,"degrees celsius")
