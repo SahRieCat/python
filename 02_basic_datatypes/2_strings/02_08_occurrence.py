@@ -7,3 +7,9 @@ Letter input: o
 Result: 4
 
 '''
+#input1
+usrsent = input("enter your sentence")
+#input2
+usrltr = input("enter a letter")
+#find
+print(usrsent.find(usrltr))
