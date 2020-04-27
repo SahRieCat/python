@@ -32,15 +32,10 @@ print(cou3,",",usr3)
 
 #print only the string with the most characters
 
-
-if cou1 >= cou2:
-   print(usr1)
-elif cou1 >= cou3:
-       print(usr1)
-
-elif cou2 >= cou3:
-       print(usr2)
-else:
-   print(usr3)
-
+biggest = usr1
+if cou1 < cou2:
+    biggest = usr2
+    if cou2 < cou3:
+         biggest = usr3
+print(biggest)
 
